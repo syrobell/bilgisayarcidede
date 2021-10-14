@@ -1,0 +1,87 @@
+/* Styles */
+#baslik1 {
+    font-family: 'Space Mono', monospace;
+    text-align: left; 
+    color: #feb236;
+    
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar h1 {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+body {
+    margin:0;
+
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+.main {
+    background-color: rgb(92, 92, 92);
+    block-size: 800px;
+    padding: 60px;
+   
+}
+.main img{
+    width: 50%;
+    display: block;
+}
+.main span{
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-size: 30px;
+    float: left;
+    display: block;
+    text-align: center;  
+}
+.urunler {
+    padding: 60px;
+    block-size: 2500px;
+    background-color: rgb(92, 92, 92);
+    color: white;
+    text-align: center;
+    
+    
+}
+.urunler img{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hakkimizda {
+    padding: 60px;
+    color: white;
+}
+.hakkimizda p{
+    padding-top: 150px;
+}
+
+.urunfiyat{
+    color: white;
+    font-weight: bold;
+}
